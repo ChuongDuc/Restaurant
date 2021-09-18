@@ -1,0 +1,296 @@
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+#header {
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background-color: #fff ;
+}
+
+#nav{
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo-wowfood{
+    height: 50px;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list > li {
+    line-height: 50px;
+    margin-left: 20px;
+    display: inline-block; 
+}
+
+.nav-list > li > a { 
+    color: rgb(240,80,154);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#slider { 
+    width: 100%;
+    background-image: url('../img/background/bg1.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search-inp{
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    font-size: 1rem;
+}
+
+.searchbt {
+    background-color: lightcoral ;
+    border-radius: 5px;
+    padding: 1% 1%;
+    margin: 0 4px;
+    border: 1px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+#content {
+    
+}
+
+#content .explore-food{
+    width: 90%;
+    padding: 50px 0 ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-head{
+    text-align: center;
+    font-size: 30px;
+}
+
+#content .food-icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#content .food-item{
+   text-align: center;
+   width: 33.333%;
+}
+
+#content .food-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    bottom: 50px;
+}
+
+#content .member-img{
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.menu-food{
+    background-color: #ececec;
+    padding-bottom: 1px;
+}
+
+.menu {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 4% ;
+}
+
+.line-food{
+    display: flex;
+    justify-content: center;
+}
+
+.box-menu {
+    display: flex;
+    width: 36%;
+    margin: 1%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.imgbox {
+    /* text-align: center; */
+}
+
+.img-food {
+    width: 68%;
+    border-radius: 15px;
+}
+
+.food-infor{
+    margin-left: -8%;
+    width: 150%;
+}
+
+.food-title{
+
+}
+
+.food-price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-desc {
+    font-size: 1rem;
+    color: #747d8c;
+    margin-bottom: 8%;
+}
+
+.btn-box {
+    display: inline-block;
+}
+
+.order-btn {
+    background-color: lightcoral;
+    border: 1px;
+    border-radius: 5px;
+    padding: 8px 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-menu {
+    margin: 1% 0;
+}
+
+.footer-menu a {
+    text-decoration: none;
+}
+
+.see-all {
+    text-align: center;
+    color: #747d8c;
+    margin-bottom: 35px;
+}
+
+#footer {
+    margin-top: 1%;
+}
+
+.icon-app{
+    display: flex;
+    justify-content: center;
+}
+
+.end-footer{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.end-footer > a{
+    text-decoration: none;
+    color: #cecece;
+}
+
+#content-order{
+    background-image: url('../img/background/bg.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 75%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */  
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.title-order{
+    text-align: center;
+    color: #fff;
+    margin-top: -85%;
+    font-size: 32px;
+}
+
+.form-order{
+    width: 50%;
+    margin: auto ;
+}
+
+.imgbox-order{
+    width: 20%;
+}
+
+.img-food-order{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.food-order-infor{
+    width: 70%;
+    margin-left: 8%;
+}
+
+.food-order-price{
+    font-size: 18px;
+    margin: 2%;
+}
+
+.food-desc-order {
+    font-weight: bold;
+}
+
+fieldset{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 5%;
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-order{
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+
+.dlv-detail{
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
